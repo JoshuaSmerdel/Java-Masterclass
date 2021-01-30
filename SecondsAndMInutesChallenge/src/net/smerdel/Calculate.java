@@ -17,4 +17,19 @@ public class Calculate {
             return inValid;
         }
     }
+
+//    public static String getDurationString(int seconds){
+//
+//        int remainingSeconds = seconds % 60;
+//        int totalMinutes = seconds / 60;
+//        int totHours = totalMinutes / 60;
+//        String ifValid = totHours + "h " + remainingMinutes + "m " + remainingSeconds + "s";
+//        String inValid = "Invalid Value";
+//
+//        if (seconds >= 0){
+//            return ifValid;
+//        } else {
+//            return inValid;
+//        }
+//    }
 }
