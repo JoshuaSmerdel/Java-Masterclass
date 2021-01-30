@@ -17,6 +17,7 @@ public class Calculate {
             return inValid;
         }
     }
+<<<<<<< HEAD
 
 //    public static String getDurationString(int seconds){
 //
@@ -32,4 +33,6 @@ public class Calculate {
 //            return inValid;
 //        }
 //    }
+=======
+>>>>>>> master
 }
