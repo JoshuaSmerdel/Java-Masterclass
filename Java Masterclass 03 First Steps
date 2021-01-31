@@ -1,0 +1,147 @@
+Java Masterclass 03 First Steps
+
+Java Keywords
+	are case sensitive
+	public, Public and PUBLIC and different things
+	"public" and "class" are 2 java keywords.  
+	-------------------------------------------------------------------
+	"public" = access modifier.  defines scope
+	-------------------------------------------------------------------
+	"static" = 
+	-------------------------------------------------------------------
+	"void" = no return for method
+	-------------------------------------------------------------------
+	"class" = define a class.  "{}" define the class body
+	-------------------------------------------------------------------
+	"method" = collection of statements that perform an operation.  
+		"()" are mandatory and may or may not contain parameters. 
+ 	-------------------------------------------------------------------
+ 	"main method" entry point in to the Java program
+ 	-------------------------------------------------------------------
+ 	{} "curly braces" define a code block.  
+ 	-------------------------------------------------------------------
+ 	"statement" = a complete command to be executed
+ 	-------------------------------------------------------------------
+ 	"variable" = store data in memeory.  
+
+ 	
+
+ 	"Declaration Statement" = Define a variable by indicating the Data type, name and optionally to set the value.  
+ 	
+ 	"Expression" = is formed by combining variables, literals & method return values. Is a construct that evaluates to a single value.  
+
+ 	Simple Assignment Operator
+
+		=       Simple assignment operator
+
+	Arithmetic Operators
+
+		+       Additive operator (also used
+		        for String concatenation)
+		-       Subtraction operator
+		*       Multiplication operator
+		/       Division operator
+		%       Remainder operator
+
+	Unary Operators
+
+		+       Unary plus operator; indicates
+		        positive value (numbers are 
+		        positive without this, however)
+		-       Unary minus operator; negates
+		        an expression
+		++      Increment operator; increments
+		        a value by 1
+		--      Decrement operator; decrements
+		        a value by 1
+		!       Logical complement operator;
+		        inverts the value of a boolean
+
+	Equality and Relational Operators
+
+		==      Equal to
+		!=      Not equal to
+		>       Greater than
+		>=      Greater than or equal to
+		<       Less than
+		<=      Less than or equal to
+
+	Conditional Operators
+
+		&&      Conditional-AND
+		||      Conditional-OR
+		?:      Ternary (shorthand for 
+		        if-then-else statement)
+
+	Type Comparison Operator
+
+		instanceof      Compares an object to 
+		                a specified type 
+
+	Bitwise and Bit Shift Operators
+
+		~       Unary bitwise complement
+		<<      Signed left shift
+		>>      Signed right shift
+		>>>     Unsigned right shift
+		&       Bitwise AND
+		^       Bitwise exclusive OR
+		|       Bitwise inclusive OR
+
+		
+
+
+
+
+ 	"Operand" = object manipulated by an operator. 
+
+ 	"Data types" = name of the differents types of data that can be stored in a "variable".  
+
+	 	"Primative Data Types" = There are 8 Primative types of data in Java
+
+	 		• boolean = 2 options.  true or false.  
+	 		-------------------------------------------------------------------
+	 		• byte = has range of -127 to 128 (8 bits & width of 8)
+	 		-------------------------------------------------------------------
+	 		• char = single character (2 bytes, 16 bits & width of 16).  Can store Unicode.
+	 		-------------------------------------------------------------------
+	 		• short = has range of -32,768 to 32,767 (16 bits & width of 16)
+	 		-------------------------------------------------------------------
+	 		• int = has range of -2,147,483,648 to 2,147,483,647 (32 bits & width of 32)
+	 		-------------------------------------------------------------------
+	 		• ==> Integer = Wrapper Class for int
+	 		-------------------------------------------------------------------
+	 		• long = has range of -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807 ()
+	 		-------------------------------------------------------------------
+	 		• float = has range of 1.4E-45 to 3.4028235E38. single precision number (64 bits/8bytes widrth of 64)
+	 		-------------------------------------------------------------------
+	 		• double = has range of 4.9E-324 to 1.7976931348623157E308. double precision number. is the default floating point number for Java.  
+	 		-------------------------------------------------------------------
+
+ 		"String Data Type" = literal string. not a primitive.  Is technically a "Class". Is sequence of characters. limited only by "heap space" on the computer. 
+ 			• String is immutable.  Cannot be changed.  Only new string created. 
+
+	"Overflow and Underflow" = when you exceed the max or min value of a data type.
+		• overflow  = over the max
+		• underflow = under the min
+
+	"Java Package" = type of folder to organize java files.  
+
+	"Casting" convert a numerical data type of one type to another with type to be converted to in parenthesis
+		example: (byte) (myMinByteValue / 2);
+
+	"Comments" = ignored by the java program/computer.  use "//" in front of any code or text to disable it.  Can be used to disable code.  
+
+
+	"Control Flow" = 
+
+	"Conditional Logic" = statement that executes based on if the expression is true or false
+
+		• if-then = basic control flow.  tell program to execue if test evaluates to true
+
+
+
+
+
+
+
